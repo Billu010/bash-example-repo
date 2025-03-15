@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p "Enter three numbers: " a b c
+echo "Largest: $(echo -e "$a\n$b\n$c" | sort -n | tail -1)"
